@@ -14,11 +14,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+    <style>
+        .container-fluid {
+            padding: 0;
+            margin: 0;
+            background-color: #CC95C0;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
+        <div class="container-fluid ">
             <a class="navbar-brand" href="#">
-                <img src="my.jpeg" alt="" width="30" height="24"
-                    class="d-inline-block align-text-top">
+                <img src="my.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +43,7 @@
             </div>
         </div>
     </nav>
-    <main class="container-fluid my-2 px-1">
+    <main class="container-fluid my-0 px-1">
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
             <div class="col-md-6 px-0">
                 <h1 class="display-4 fst-italic">How to loss fat faster</h1>
@@ -87,7 +97,7 @@
         <div class="row g-5 mx-2">
             <div class="col-md-8">
                 <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                    From the Firehose
+                    Hydroxy Cut
                 </h3>
 
                 <article class="blog-post">
@@ -171,7 +181,9 @@
 
                 <nav class="blog-pagination" aria-label="Pagination">
                     <a class="btn btn-outline-primary" href="https://amzn.to/3Dhxd29">Buy Now</a>
-                    <a class="btn btn-outline-secondary " href="https://www.healthline.com/nutrition/phentermine-weight-loss" target="_blank">Read More</a>
+                    <a class="btn btn-outline-secondary "
+                        href="https://www.healthline.com/nutrition/phentermine-weight-loss" target="_blank">Read
+                        More</a>
                 </nav>
 
             </div>
@@ -216,16 +228,71 @@
         </div>
 
     </main>
-    
-    <!-- Optional JavaScript; choose one of the two! -->
+    <div class="container-fluid my-2">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="4.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">Hydroxy Cut</h5>
+                        <p class="card-text">Hydroxycut is a brand of weight loss supplements.
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+                            It offers various products, including pills, capsules, shakes, and gummies.</p>
+                        <P class="card-text">INR-2199</P>
+                        <a href="https://amzn.to/3Dhxd29"> <button type="button" class="btn btn-primary">Buy
+                                Now</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="2.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mivi Earphone</h5>
+                        <p class="card-text">Mivi Collar 2B Wireless Bluetooth in Ear Earphones with Mic (Black).</p>
+                        <P class="card-text">INR-999</P>
+                        <a href="https://amzn.to/3tL2Eip"><button type="button" class="btn btn-primary">Buy
+                                Now</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mivi Earphone</h5>
+                        <p class="card-text">Mivi Collar Flash Wireless Bluetooth in Ear Earphones with Mic (Black)</p>
+                        <P class="card-text">INR-1099</P>
+                        <a
+                            href="https://www.amazon.in/Mivi-Bluetooth-Earphones-Charging-Earphones/dp/B097DJ1TFH?pd_rd_w=BD8aR&pf_rd_p=a62021ef-ed94-4c60-92cc-5878fb8afd3c&pf_rd_r=7TJ15VTD8Q1300VYBZH5&pd_rd_r=88a8159b-c7e4-4653-b9f5-ff6891428632&pd_rd_wg=1cEQ0&pd_rd_i=B097DJ1TFH&th=1&linkCode=ll1&tag=rajnikant0cf-21&linkId=2ba26ff8f5d785da4edd25c06774862c&language=en_IN&ref_=as_li_ss_tl"><button
+                                type="button" class="btn btn-primary">Buy Now</button></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="my.jpeg" alt="" class="card-img-top">
+                  <div class="card-body">
+                      <h5 class="card-title">Rajnikant</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                          Similique ullam provident inventore.
+                           Amet quaerat praesentium placeat laboriosam laudantium! Laboriosam, nobis!</p>
+                           <button type="button" class="btn btn-primary">Book Now</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>-->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
